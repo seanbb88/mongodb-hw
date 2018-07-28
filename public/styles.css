@@ -1,0 +1,52 @@
+body { background-color: black}
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white; 
+}
+#album {
+  display: inline-block;
+  overflow: auto;
+  width: 60%;
+  height: 700px;
+  background-color: rgb(75, 72, 72); 
+}
+#notes {
+  float: right;
+  width: 30%;
+  margin-right: 30px; 
+
+}
+textarea, input {
+  display: block;
+  width: 100%;
+  background-color: #FCF5C7;
+}
+input {
+  height: 36px;
+  font-size: 24px;
+}
+textarea {
+  height: 200px;
+  font-size: 18px;
+}
+
+p {
+    color: white; 
+    margin-top: 30px; 
+}
+
+img {
+    margin-left: 10px; 
+    border: white solid 1px; 
+}
+
+#titleinput{
+    background-color: lightslategray; 
+}
+
+#bodyinput {
+    background-color: lightslategray; 
+}
+
